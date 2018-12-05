@@ -11,6 +11,26 @@ Please do not commit directly into the `Day<n>` folders, but rather make a folde
 
 ## Running
 
+### Elixir
+> Elixir is a dynamic, functional language built to run on the Erlang VM. It excels at distributed and concurrent programming.
+
+[Get Elixir](http://elixir-lang.github.io/)
+
+Formatter
+```
+mix format
+```
+Tests
+```
+mix test
+```
+Exercises
+```
+mix deps.get
+mix advent1.run
+mix advent2.run
+```
+
 ### Rust
 > Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
 
